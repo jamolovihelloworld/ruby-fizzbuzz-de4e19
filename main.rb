@@ -1,0 +1,1 @@
+(1..20).each{|i|o='';o+='Fizz' if i%3==0;o+='Buzz' if i%5==0;puts o.empty?? i:o}
